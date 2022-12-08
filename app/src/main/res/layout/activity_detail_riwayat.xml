@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_page"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detail_riwayat">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp">
+        <Button
+            android:id="@+id/btnDtlRwyt"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_arrow_back"
+            android:layout_marginTop="33dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Riwayat"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/mitr_regular"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginTop="35dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="30dp"
+        android:text="Selesai"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@drawable/bg_button"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INVOICE : 2021903"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/mitr_regular"
+        android:textSize="20dp"
+        android:layout_marginStart="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 September 2022"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"
+        android:layout_marginStart="25dp"/>
+    <TextView
+        android:layout_width="380dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content"
+        android:text="__________________________________________________________"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Produk"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/mitr_regular"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_content">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/model_1"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARRY OUTER BROWN"
+                android:fontFamily="@font/mitr_regular"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jumlah: 2"
+                android:textSize="12dp"
+                android:fontFamily="@font/mitr_regular" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RP 199.000"
+                android:fontFamily="@font/mitr_regular" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: Rp 300.000"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#3E45AA"
+                android:fontFamily="@font/mitr_regular"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_content">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/model_1"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARRY OUTER BROWN"
+                android:fontFamily="@font/mitr_regular"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jumlah: 2"
+                android:textSize="12dp"
+                android:fontFamily="@font/mitr_regular" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RP 199.000"
+                android:fontFamily="@font/mitr_regular" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: Rp 300.000"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#3E45AA"
+                android:fontFamily="@font/mitr_regular"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_content">
+        <ImageView
+            android:id="@+id/promoPict"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/model_1"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARRY OUTER BROWN"
+                android:fontFamily="@font/mitr_regular"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jumlah: 2"
+                android:textSize="12dp"
+                android:fontFamily="@font/mitr_regular" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RP 199.000"
+                android:fontFamily="@font/mitr_regular" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: Rp 300.000"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#3E45AA"
+                android:fontFamily="@font/mitr_regular"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL HARGA: 1.925.999"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:fontFamily="@font/mitr_regular"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginStart="170dp"/>
+
+
+</LinearLayout>
